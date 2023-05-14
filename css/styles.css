@@ -1,0 +1,46 @@
+body{
+    background-image: url("/assets/15.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.input{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    background-color: aliceblue;
+    border:none;
+    outline: none;
+}
+
+#form-heading{
+
+    text-align: center;
+}
+
+.input:focus {
+    background-color: rgb(195, 252, 254);
+}
+
+.btn{
+    width: 90%;
+    color: white;
+    background-color: #027AF7;
+    padding: 17px;
+    border:none;
+    cursor: pointer;
+    margin-left: 14px;
+    margin-right: auto;
+    
+}
